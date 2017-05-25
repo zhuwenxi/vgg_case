@@ -1,0 +1,242 @@
+{
+    "conv1_1": {
+        "forward": "5.94874", 
+        "forward_ratio": "2.70%", 
+        "backward": "15.0027", 
+        "backward_ratio": "2.97%"
+    }, 
+    "conv1_2": {
+        "forward": "23.2074", 
+        "forward_ratio": "10.52%", 
+        "backward": "58.8915", 
+        "backward_ratio": "11.67%"
+    }, 
+    "conv2_1": {
+        "forward": "11.2568", 
+        "forward_ratio": "5.10%", 
+        "backward": "25.1531", 
+        "backward_ratio": "4.99%"
+    }, 
+    "conv2_2": {
+        "forward": "18.2607", 
+        "forward_ratio": "8.28%", 
+        "backward": "46.3695", 
+        "backward_ratio": "9.19%"
+    }, 
+    "conv3_1": {
+        "forward": "10.1079", 
+        "forward_ratio": "4.58%", 
+        "backward": "23.2713", 
+        "backward_ratio": "4.61%"
+    }, 
+    "conv3_2": {
+        "forward": "17.7942", 
+        "forward_ratio": "8.06%", 
+        "backward": "46.4963", 
+        "backward_ratio": "9.22%"
+    }, 
+    "conv3_3": {
+        "forward": "17.7674", 
+        "forward_ratio": "8.05%", 
+        "backward": "46.5432", 
+        "backward_ratio": "9.22%"
+    }, 
+    "conv4_1": {
+        "forward": "9.16352", 
+        "forward_ratio": "4.15%", 
+        "backward": "23.0541", 
+        "backward_ratio": "4.57%"
+    }, 
+    "conv4_2": {
+        "forward": "27.8186", 
+        "forward_ratio": "12.61%", 
+        "backward": "57.9621", 
+        "backward_ratio": "11.49%"
+    }, 
+    "conv4_3": {
+        "forward": "27.8157", 
+        "forward_ratio": "12.61%", 
+        "backward": "57.9806", 
+        "backward_ratio": "11.49%"
+    }, 
+    "conv5_1": {
+        "forward": "7.95104", 
+        "forward_ratio": "3.60%", 
+        "backward": "14.7415", 
+        "backward_ratio": "2.92%"
+    }, 
+    "conv5_2": {
+        "forward": "7.95083", 
+        "forward_ratio": "3.60%", 
+        "backward": "14.7411", 
+        "backward_ratio": "2.92%"
+    }, 
+    "conv5_3": {
+        "forward": "7.94922", 
+        "forward_ratio": "3.60%", 
+        "backward": "14.7472", 
+        "backward_ratio": "2.92%"
+    }, 
+    "data": {
+        "forward": "0.010512", 
+        "forward_ratio": "0.00%", 
+        "backward": "0.0041216", 
+        "backward_ratio": "0.00%"
+    }, 
+    "drop6": {
+        "forward": "0.0301216", 
+        "forward_ratio": "0.01%", 
+        "backward": "0.0154464", 
+        "backward_ratio": "0.00%"
+    }, 
+    "drop7": {
+        "forward": "0.0216256", 
+        "forward_ratio": "0.01%", 
+        "backward": "0.0153984", 
+        "backward_ratio": "0.00%"
+    }, 
+    "fc6": {
+        "forward": "3.30884", 
+        "forward_ratio": "1.50%", 
+        "backward": "3.99006", 
+        "backward_ratio": "0.79%"
+    }, 
+    "fc7": {
+        "forward": "0.556931", 
+        "forward_ratio": "0.25%", 
+        "backward": "0.985437", 
+        "backward_ratio": "0.20%"
+    }, 
+    "fc8": {
+        "forward": "0.189056", 
+        "forward_ratio": "0.09%", 
+        "backward": "0.400045", 
+        "backward_ratio": "0.08%"
+    }, 
+    "loss": {
+        "forward": "0.14919", 
+        "forward_ratio": "0.07%", 
+        "backward": "0.0355776", 
+        "backward_ratio": "0.01%"
+    }, 
+    "pool1": {
+        "forward": "2.99695", 
+        "forward_ratio": "1.36%", 
+        "backward": "17.3715", 
+        "backward_ratio": "3.44%"
+    }, 
+    "pool2": {
+        "forward": "1.50435", 
+        "forward_ratio": "0.68%", 
+        "backward": "8.68529", 
+        "backward_ratio": "1.72%"
+    }, 
+    "pool3": {
+        "forward": "0.76153", 
+        "forward_ratio": "0.35%", 
+        "backward": "4.35068", 
+        "backward_ratio": "0.86%"
+    }, 
+    "pool4": {
+        "forward": "0.389523", 
+        "forward_ratio": "0.18%", 
+        "backward": "2.18546", 
+        "backward_ratio": "0.43%"
+    }, 
+    "pool5": {
+        "forward": "0.10903", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.564074", 
+        "backward_ratio": "0.11%"
+    }, 
+    "relu1_1": {
+        "forward": "3.28038", 
+        "forward_ratio": "1.49%", 
+        "backward": "4.78558", 
+        "backward_ratio": "0.95%"
+    }, 
+    "relu1_2": {
+        "forward": "3.26606", 
+        "forward_ratio": "1.48%", 
+        "backward": "4.78695", 
+        "backward_ratio": "0.95%"
+    }, 
+    "relu2_1": {
+        "forward": "1.64203", 
+        "forward_ratio": "0.74%", 
+        "backward": "2.40384", 
+        "backward_ratio": "0.48%"
+    }, 
+    "relu2_2": {
+        "forward": "1.64099", 
+        "forward_ratio": "0.74%", 
+        "backward": "2.40169", 
+        "backward_ratio": "0.48%"
+    }, 
+    "relu3_1": {
+        "forward": "0.835539", 
+        "forward_ratio": "0.38%", 
+        "backward": "1.20852", 
+        "backward_ratio": "0.24%"
+    }, 
+    "relu3_2": {
+        "forward": "0.828525", 
+        "forward_ratio": "0.38%", 
+        "backward": "1.20774", 
+        "backward_ratio": "0.24%"
+    }, 
+    "relu3_3": {
+        "forward": "0.828333", 
+        "forward_ratio": "0.38%", 
+        "backward": "1.21017", 
+        "backward_ratio": "0.24%"
+    }, 
+    "relu4_1": {
+        "forward": "0.421571", 
+        "forward_ratio": "0.19%", 
+        "backward": "0.61496", 
+        "backward_ratio": "0.12%"
+    }, 
+    "relu4_2": {
+        "forward": "0.425094", 
+        "forward_ratio": "0.19%", 
+        "backward": "0.614214", 
+        "backward_ratio": "0.12%"
+    }, 
+    "relu4_3": {
+        "forward": "0.422214", 
+        "forward_ratio": "0.19%", 
+        "backward": "0.613178", 
+        "backward_ratio": "0.12%"
+    }, 
+    "relu5_1": {
+        "forward": "0.115898", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.168365", 
+        "backward_ratio": "0.03%"
+    }, 
+    "relu5_2": {
+        "forward": "0.115952", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.167379", 
+        "backward_ratio": "0.03%"
+    }, 
+    "relu5_3": {
+        "forward": "0.116432", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.166896", 
+        "backward_ratio": "0.03%"
+    }, 
+    "relu6": {
+        "forward": "0.017616", 
+        "forward_ratio": "0.01%", 
+        "backward": "0.0226336", 
+        "backward_ratio": "0.00%"
+    }, 
+    "relu7": {
+        "forward": "0.0169088", 
+        "forward_ratio": "0.01%", 
+        "backward": "0.0257408", 
+        "backward_ratio": "0.01%"
+    }
+}
