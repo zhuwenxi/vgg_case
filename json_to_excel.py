@@ -48,7 +48,7 @@ with open(args.knl, 'r') as knl_json, open(args.p100, 'r') as p100_json:
 		i += 1
 
 	#
-	# write "forward" work sheet
+	# write "backward" work sheet
 	#
 	backward_worksheet.write(0, 0, 'Layer Name', format)
 	backward_worksheet.write(0, 1, 'KNL (ms)', format)
@@ -64,7 +64,7 @@ with open(args.knl, 'r') as knl_json, open(args.p100, 'r') as p100_json:
 	i = 1
 	for layer, data in p100_dict.items():
 		backward_worksheet.write(i, 2, float(data['backward']))
-		backward_worksheet.write(i, 3, float('%.2f' % (float(p100_dict[layer]['backward']) * 100 / float(knl_dict[layer]['forward']))))
+		backward_worksheet.write(i, 3, float('%.2f' % (float(p100_dict[layer]['backward']) * 100 / float(knl_dict[layer]['backward']))))
 		i += 1
 
 workbook.close()
