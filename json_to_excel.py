@@ -48,7 +48,7 @@ with open(args.knl, 'r') as knl_json, open(args.p100, 'r') as p100_json:
 		i += 1
 
 	#
-	# write "forward" work sheet
+	# write "backward" work sheet
 	#
 	backward_worksheet.write(0, 0, 'Layer Name', format)
 	backward_worksheet.write(0, 1, 'KNL (ms)', format)
