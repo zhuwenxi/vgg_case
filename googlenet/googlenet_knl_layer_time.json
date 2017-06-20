@@ -1,0 +1,1016 @@
+{
+    "conv1/7x7_s2": {
+        "forward": "6.1592", 
+        "forward_ratio": "3.65%", 
+        "backward": "9.474", 
+        "backward_ratio": "3.27%"
+    }, 
+    "conv1/relu_7x7": {
+        "forward": "1.6047", 
+        "forward_ratio": "0.95%", 
+        "backward": "2.7335", 
+        "backward_ratio": "0.94%"
+    }, 
+    "conv2/3x3": {
+        "forward": "16.7412", 
+        "forward_ratio": "9.92%", 
+        "backward": "38.5795", 
+        "backward_ratio": "13.31%"
+    }, 
+    "conv2/3x3_reduce": {
+        "forward": "1.0146", 
+        "forward_ratio": "0.60%", 
+        "backward": "2.6132", 
+        "backward_ratio": "0.90%"
+    }, 
+    "conv2/norm2": {
+        "forward": "5.4481", 
+        "forward_ratio": "3.23%", 
+        "backward": "6.7876", 
+        "backward_ratio": "2.34%"
+    }, 
+    "conv2/relu_3x3": {
+        "forward": "1.221", 
+        "forward_ratio": "0.72%", 
+        "backward": "1.6356", 
+        "backward_ratio": "0.56%"
+    }, 
+    "conv2/relu_3x3_reduce": {
+        "forward": "0.4521", 
+        "forward_ratio": "0.27%", 
+        "backward": "0.5913", 
+        "backward_ratio": "0.20%"
+    }, 
+    "data": {
+        "forward": "20.7895", 
+        "forward_ratio": "12.32%", 
+        "backward": "0.0031", 
+        "backward_ratio": "0.00%"
+    }, 
+    "inception_3a/1x1": {
+        "forward": "0.6813", 
+        "forward_ratio": "0.40%", 
+        "backward": "1.5188", 
+        "backward_ratio": "0.52%"
+    }, 
+    "inception_3a/3x3": {
+        "forward": "3.9177", 
+        "forward_ratio": "2.32%", 
+        "backward": "9.4332", 
+        "backward_ratio": "3.25%"
+    }, 
+    "inception_3a/3x3_reduce": {
+        "forward": "0.9415", 
+        "forward_ratio": "0.56%", 
+        "backward": "2.016", 
+        "backward_ratio": "0.70%"
+    }, 
+    "inception_3a/5x5": {
+        "forward": "0.6308", 
+        "forward_ratio": "0.37%", 
+        "backward": "1.42", 
+        "backward_ratio": "0.49%"
+    }, 
+    "inception_3a/5x5_reduce": {
+        "forward": "0.3946", 
+        "forward_ratio": "0.23%", 
+        "backward": "1.0724", 
+        "backward_ratio": "0.37%"
+    }, 
+    "inception_3a/output": {
+        "forward": "1.0391", 
+        "forward_ratio": "0.62%", 
+        "backward": "2.4527", 
+        "backward_ratio": "0.85%"
+    }, 
+    "inception_3a/output_inception_3a/output_0_split": {
+        "forward": "0.0116", 
+        "forward_ratio": "0.01%", 
+        "backward": "1.4731", 
+        "backward_ratio": "0.51%"
+    }, 
+    "inception_3a/pool": {
+        "forward": "2.1363", 
+        "forward_ratio": "1.27%", 
+        "backward": "1.4833", 
+        "backward_ratio": "0.51%"
+    }, 
+    "inception_3a/pool_proj": {
+        "forward": "0.492", 
+        "forward_ratio": "0.29%", 
+        "backward": "1.1901", 
+        "backward_ratio": "0.41%"
+    }, 
+    "inception_3a/relu_1x1": {
+        "forward": "0.1444", 
+        "forward_ratio": "0.09%", 
+        "backward": "0.2073", 
+        "backward_ratio": "0.07%"
+    }, 
+    "inception_3a/relu_3x3": {
+        "forward": "0.2003", 
+        "forward_ratio": "0.12%", 
+        "backward": "0.3128", 
+        "backward_ratio": "0.11%"
+    }, 
+    "inception_3a/relu_3x3_reduce": {
+        "forward": "0.1726", 
+        "forward_ratio": "0.10%", 
+        "backward": "0.8473", 
+        "backward_ratio": "0.29%"
+    }, 
+    "inception_3a/relu_5x5": {
+        "forward": "0.0451", 
+        "forward_ratio": "0.03%", 
+        "backward": "0.1242", 
+        "backward_ratio": "0.04%"
+    }, 
+    "inception_3a/relu_5x5_reduce": {
+        "forward": "0.0742", 
+        "forward_ratio": "0.04%", 
+        "backward": "0.0919", 
+        "backward_ratio": "0.03%"
+    }, 
+    "inception_3a/relu_pool_proj": {
+        "forward": "0.0895", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.1401", 
+        "backward_ratio": "0.05%"
+    }, 
+    "inception_3b/1x1": {
+        "forward": "1.5741", 
+        "forward_ratio": "0.93%", 
+        "backward": "3.1842", 
+        "backward_ratio": "1.10%"
+    }, 
+    "inception_3b/3x3": {
+        "forward": "7.5177", 
+        "forward_ratio": "4.46%", 
+        "backward": "18.3482", 
+        "backward_ratio": "6.33%"
+    }, 
+    "inception_3b/3x3_reduce": {
+        "forward": "1.6089", 
+        "forward_ratio": "0.95%", 
+        "backward": "3.31", 
+        "backward_ratio": "1.14%"
+    }, 
+    "inception_3b/5x5": {
+        "forward": "2.6218", 
+        "forward_ratio": "1.55%", 
+        "backward": "6.4983", 
+        "backward_ratio": "2.24%"
+    }, 
+    "inception_3b/5x5_reduce": {
+        "forward": "0.6528", 
+        "forward_ratio": "0.39%", 
+        "backward": "1.6132", 
+        "backward_ratio": "0.56%"
+    }, 
+    "inception_3b/output": {
+        "forward": "1.7229", 
+        "forward_ratio": "1.02%", 
+        "backward": "4.5912", 
+        "backward_ratio": "1.58%"
+    }, 
+    "inception_3b/pool": {
+        "forward": "2.876", 
+        "forward_ratio": "1.70%", 
+        "backward": "1.9053", 
+        "backward_ratio": "0.66%"
+    }, 
+    "inception_3b/pool_proj": {
+        "forward": "0.9232", 
+        "forward_ratio": "0.55%", 
+        "backward": "1.9789", 
+        "backward_ratio": "0.68%"
+    }, 
+    "inception_3b/relu_1x1": {
+        "forward": "0.189", 
+        "forward_ratio": "0.11%", 
+        "backward": "0.3982", 
+        "backward_ratio": "0.14%"
+    }, 
+    "inception_3b/relu_3x3": {
+        "forward": "0.2884", 
+        "forward_ratio": "0.17%", 
+        "backward": "0.659", 
+        "backward_ratio": "0.23%"
+    }, 
+    "inception_3b/relu_3x3_reduce": {
+        "forward": "0.1943", 
+        "forward_ratio": "0.12%", 
+        "backward": "0.7564", 
+        "backward_ratio": "0.26%"
+    }, 
+    "inception_3b/relu_5x5": {
+        "forward": "0.1642", 
+        "forward_ratio": "0.10%", 
+        "backward": "0.2719", 
+        "backward_ratio": "0.09%"
+    }, 
+    "inception_3b/relu_5x5_reduce": {
+        "forward": "0.0904", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.379", 
+        "backward_ratio": "0.13%"
+    }, 
+    "inception_3b/relu_pool_proj": {
+        "forward": "0.1153", 
+        "forward_ratio": "0.07%", 
+        "backward": "0.1866", 
+        "backward_ratio": "0.06%"
+    }, 
+    "inception_4a/1x1": {
+        "forward": "1.0626", 
+        "forward_ratio": "0.63%", 
+        "backward": "2.2499", 
+        "backward_ratio": "0.78%"
+    }, 
+    "inception_4a/3x3": {
+        "forward": "1.7479", 
+        "forward_ratio": "1.04%", 
+        "backward": "4.0871", 
+        "backward_ratio": "1.41%"
+    }, 
+    "inception_4a/3x3_reduce": {
+        "forward": "0.632", 
+        "forward_ratio": "0.37%", 
+        "backward": "1.3302", 
+        "backward_ratio": "0.46%"
+    }, 
+    "inception_4a/5x5": {
+        "forward": "0.3212", 
+        "forward_ratio": "0.19%", 
+        "backward": "0.7135", 
+        "backward_ratio": "0.25%"
+    }, 
+    "inception_4a/5x5_reduce": {
+        "forward": "0.2759", 
+        "forward_ratio": "0.16%", 
+        "backward": "0.8232", 
+        "backward_ratio": "0.28%"
+    }, 
+    "inception_4a/output": {
+        "forward": "0.4091", 
+        "forward_ratio": "0.24%", 
+        "backward": "1.0573", 
+        "backward_ratio": "0.36%"
+    }, 
+    "inception_4a/output_inception_4a/output_0_split": {
+        "forward": "0.0136", 
+        "forward_ratio": "0.01%", 
+        "backward": "1.9809", 
+        "backward_ratio": "0.68%"
+    }, 
+    "inception_4a/pool": {
+        "forward": "1.329", 
+        "forward_ratio": "0.79%", 
+        "backward": "0.9077", 
+        "backward_ratio": "0.31%"
+    }, 
+    "inception_4a/pool_proj": {
+        "forward": "0.4818", 
+        "forward_ratio": "0.29%", 
+        "backward": "1.0287", 
+        "backward_ratio": "0.35%"
+    }, 
+    "inception_4a/relu_1x1": {
+        "forward": "0.1072", 
+        "forward_ratio": "0.06%", 
+        "backward": "0.1874", 
+        "backward_ratio": "0.06%"
+    }, 
+    "inception_4a/relu_3x3": {
+        "forward": "0.1023", 
+        "forward_ratio": "0.06%", 
+        "backward": "0.1461", 
+        "backward_ratio": "0.05%"
+    }, 
+    "inception_4a/relu_3x3_reduce": {
+        "forward": "0.0851", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.4461", 
+        "backward_ratio": "0.15%"
+    }, 
+    "inception_4a/relu_5x5": {
+        "forward": "0.0283", 
+        "forward_ratio": "0.02%", 
+        "backward": "0.0844", 
+        "backward_ratio": "0.03%"
+    }, 
+    "inception_4a/relu_5x5_reduce": {
+        "forward": "0.0548", 
+        "forward_ratio": "0.03%", 
+        "backward": "0.052", 
+        "backward_ratio": "0.02%"
+    }, 
+    "inception_4a/relu_pool_proj": {
+        "forward": "0.0701", 
+        "forward_ratio": "0.04%", 
+        "backward": "0.0834", 
+        "backward_ratio": "0.03%"
+    }, 
+    "inception_4b/1x1": {
+        "forward": "1.2219", 
+        "forward_ratio": "0.72%", 
+        "backward": "2.0241", 
+        "backward_ratio": "0.70%"
+    }, 
+    "inception_4b/3x3": {
+        "forward": "2.1671", 
+        "forward_ratio": "1.28%", 
+        "backward": "5.0055", 
+        "backward_ratio": "1.73%"
+    }, 
+    "inception_4b/3x3_reduce": {
+        "forward": "0.7958", 
+        "forward_ratio": "0.47%", 
+        "backward": "1.5517", 
+        "backward_ratio": "0.54%"
+    }, 
+    "inception_4b/5x5": {
+        "forward": "1.973", 
+        "forward_ratio": "1.17%", 
+        "backward": "5.2437", 
+        "backward_ratio": "1.81%"
+    }, 
+    "inception_4b/5x5_reduce": {
+        "forward": "1.4982", 
+        "forward_ratio": "0.89%", 
+        "backward": "1.4704", 
+        "backward_ratio": "0.51%"
+    }, 
+    "inception_4b/output": {
+        "forward": "0.5587", 
+        "forward_ratio": "0.33%", 
+        "backward": "0.9533", 
+        "backward_ratio": "0.33%"
+    }, 
+    "inception_4b/output_inception_4b/output_0_split": {
+        "forward": "0.0114", 
+        "forward_ratio": "0.01%", 
+        "backward": "1.7016", 
+        "backward_ratio": "0.59%"
+    }, 
+    "inception_4b/pool": {
+        "forward": "1.4508", 
+        "forward_ratio": "0.86%", 
+        "backward": "1.0044", 
+        "backward_ratio": "0.35%"
+    }, 
+    "inception_4b/pool_proj": {
+        "forward": "0.5322", 
+        "forward_ratio": "0.32%", 
+        "backward": "1.0924", 
+        "backward_ratio": "0.38%"
+    }, 
+    "inception_4b/relu_1x1": {
+        "forward": "0.1091", 
+        "forward_ratio": "0.06%", 
+        "backward": "0.1504", 
+        "backward_ratio": "0.05%"
+    }, 
+    "inception_4b/relu_3x3": {
+        "forward": "0.1238", 
+        "forward_ratio": "0.07%", 
+        "backward": "0.1473", 
+        "backward_ratio": "0.05%"
+    }, 
+    "inception_4b/relu_3x3_reduce": {
+        "forward": "0.0847", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.5412", 
+        "backward_ratio": "0.19%"
+    }, 
+    "inception_4b/relu_5x5": {
+        "forward": "0.0845", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.2603", 
+        "backward_ratio": "0.09%"
+    }, 
+    "inception_4b/relu_5x5_reduce": {
+        "forward": "0.0696", 
+        "forward_ratio": "0.04%", 
+        "backward": "0.0447", 
+        "backward_ratio": "0.02%"
+    }, 
+    "inception_4b/relu_pool_proj": {
+        "forward": "0.0734", 
+        "forward_ratio": "0.04%", 
+        "backward": "0.0825", 
+        "backward_ratio": "0.03%"
+    }, 
+    "inception_4c/1x1": {
+        "forward": "0.8161", 
+        "forward_ratio": "0.48%", 
+        "backward": "1.653", 
+        "backward_ratio": "0.57%"
+    }, 
+    "inception_4c/3x3": {
+        "forward": "2.7057", 
+        "forward_ratio": "1.60%", 
+        "backward": "6.225", 
+        "backward_ratio": "2.15%"
+    }, 
+    "inception_4c/3x3_reduce": {
+        "forward": "0.811", 
+        "forward_ratio": "0.48%", 
+        "backward": "1.6368", 
+        "backward_ratio": "0.56%"
+    }, 
+    "inception_4c/5x5": {
+        "forward": "1.958", 
+        "forward_ratio": "1.16%", 
+        "backward": "5.2035", 
+        "backward_ratio": "1.80%"
+    }, 
+    "inception_4c/5x5_reduce": {
+        "forward": "1.4615", 
+        "forward_ratio": "0.87%", 
+        "backward": "1.5401", 
+        "backward_ratio": "0.53%"
+    }, 
+    "inception_4c/output": {
+        "forward": "0.4772", 
+        "forward_ratio": "0.28%", 
+        "backward": "1.0559", 
+        "backward_ratio": "0.36%"
+    }, 
+    "inception_4c/output_inception_4c/output_0_split": {
+        "forward": "0.0118", 
+        "forward_ratio": "0.01%", 
+        "backward": "0.7871", 
+        "backward_ratio": "0.27%"
+    }, 
+    "inception_4c/pool": {
+        "forward": "1.4207", 
+        "forward_ratio": "0.84%", 
+        "backward": "0.9879", 
+        "backward_ratio": "0.34%"
+    }, 
+    "inception_4c/pool_proj": {
+        "forward": "0.5313", 
+        "forward_ratio": "0.31%", 
+        "backward": "0.9886", 
+        "backward_ratio": "0.34%"
+    }, 
+    "inception_4c/relu_1x1": {
+        "forward": "0.0946", 
+        "forward_ratio": "0.06%", 
+        "backward": "0.0993", 
+        "backward_ratio": "0.03%"
+    }, 
+    "inception_4c/relu_3x3": {
+        "forward": "0.1173", 
+        "forward_ratio": "0.07%", 
+        "backward": "0.1869", 
+        "backward_ratio": "0.06%"
+    }, 
+    "inception_4c/relu_3x3_reduce": {
+        "forward": "0.0881", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.6238", 
+        "backward_ratio": "0.22%"
+    }, 
+    "inception_4c/relu_5x5": {
+        "forward": "0.0869", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.2113", 
+        "backward_ratio": "0.07%"
+    }, 
+    "inception_4c/relu_5x5_reduce": {
+        "forward": "0.0775", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.045", 
+        "backward_ratio": "0.02%"
+    }, 
+    "inception_4c/relu_pool_proj": {
+        "forward": "0.0696", 
+        "forward_ratio": "0.04%", 
+        "backward": "0.0856", 
+        "backward_ratio": "0.03%"
+    }, 
+    "inception_4d/1x1": {
+        "forward": "0.7736", 
+        "forward_ratio": "0.46%", 
+        "backward": "1.4643", 
+        "backward_ratio": "0.51%"
+    }, 
+    "inception_4d/3x3": {
+        "forward": "3.5017", 
+        "forward_ratio": "2.08%", 
+        "backward": "8.4508", 
+        "backward_ratio": "2.92%"
+    }, 
+    "inception_4d/3x3_reduce": {
+        "forward": "0.9268", 
+        "forward_ratio": "0.55%", 
+        "backward": "1.8129", 
+        "backward_ratio": "0.63%"
+    }, 
+    "inception_4d/5x5": {
+        "forward": "0.5939", 
+        "forward_ratio": "0.35%", 
+        "backward": "1.3116", 
+        "backward_ratio": "0.45%"
+    }, 
+    "inception_4d/5x5_reduce": {
+        "forward": "0.3987", 
+        "forward_ratio": "0.24%", 
+        "backward": "0.7844", 
+        "backward_ratio": "0.27%"
+    }, 
+    "inception_4d/output": {
+        "forward": "0.5795", 
+        "forward_ratio": "0.34%", 
+        "backward": "1.0105", 
+        "backward_ratio": "0.35%"
+    }, 
+    "inception_4d/output_inception_4d/output_0_split": {
+        "forward": "0.0129", 
+        "forward_ratio": "0.01%", 
+        "backward": "0.9709", 
+        "backward_ratio": "0.33%"
+    }, 
+    "inception_4d/pool": {
+        "forward": "1.4383", 
+        "forward_ratio": "0.85%", 
+        "backward": "1.0289", 
+        "backward_ratio": "0.35%"
+    }, 
+    "inception_4d/pool_proj": {
+        "forward": "0.5247", 
+        "forward_ratio": "0.31%", 
+        "backward": "1.1337", 
+        "backward_ratio": "0.39%"
+    }, 
+    "inception_4d/relu_1x1": {
+        "forward": "0.0867", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.101", 
+        "backward_ratio": "0.03%"
+    }, 
+    "inception_4d/relu_3x3": {
+        "forward": "0.1405", 
+        "forward_ratio": "0.08%", 
+        "backward": "0.186", 
+        "backward_ratio": "0.06%"
+    }, 
+    "inception_4d/relu_3x3_reduce": {
+        "forward": "0.091", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.7464", 
+        "backward_ratio": "0.26%"
+    }, 
+    "inception_4d/relu_5x5": {
+        "forward": "0.0518", 
+        "forward_ratio": "0.03%", 
+        "backward": "0.0926", 
+        "backward_ratio": "0.03%"
+    }, 
+    "inception_4d/relu_5x5_reduce": {
+        "forward": "0.0603", 
+        "forward_ratio": "0.04%", 
+        "backward": "0.1054", 
+        "backward_ratio": "0.04%"
+    }, 
+    "inception_4d/relu_pool_proj": {
+        "forward": "0.0803", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.0843", 
+        "backward_ratio": "0.03%"
+    }, 
+    "inception_4e/1x1": {
+        "forward": "1.8306", 
+        "forward_ratio": "1.08%", 
+        "backward": "2.9929", 
+        "backward_ratio": "1.03%"
+    }, 
+    "inception_4e/3x3": {
+        "forward": "4.2061", 
+        "forward_ratio": "2.49%", 
+        "backward": "9.8725", 
+        "backward_ratio": "3.41%"
+    }, 
+    "inception_4e/3x3_reduce": {
+        "forward": "1.1447", 
+        "forward_ratio": "0.68%", 
+        "backward": "2.0435", 
+        "backward_ratio": "0.71%"
+    }, 
+    "inception_4e/5x5": {
+        "forward": "1.0045", 
+        "forward_ratio": "0.60%", 
+        "backward": "2.2392", 
+        "backward_ratio": "0.77%"
+    }, 
+    "inception_4e/5x5_reduce": {
+        "forward": "0.4172", 
+        "forward_ratio": "0.25%", 
+        "backward": "0.8151", 
+        "backward_ratio": "0.28%"
+    }, 
+    "inception_4e/output": {
+        "forward": "0.7745", 
+        "forward_ratio": "0.46%", 
+        "backward": "1.5684", 
+        "backward_ratio": "0.54%"
+    }, 
+    "inception_4e/pool": {
+        "forward": "1.4882", 
+        "forward_ratio": "0.88%", 
+        "backward": "1.1496", 
+        "backward_ratio": "0.40%"
+    }, 
+    "inception_4e/pool_proj": {
+        "forward": "0.8627", 
+        "forward_ratio": "0.51%", 
+        "backward": "1.6954", 
+        "backward_ratio": "0.58%"
+    }, 
+    "inception_4e/relu_1x1": {
+        "forward": "0.1233", 
+        "forward_ratio": "0.07%", 
+        "backward": "0.2735", 
+        "backward_ratio": "0.09%"
+    }, 
+    "inception_4e/relu_3x3": {
+        "forward": "0.1415", 
+        "forward_ratio": "0.08%", 
+        "backward": "0.2124", 
+        "backward_ratio": "0.07%"
+    }, 
+    "inception_4e/relu_3x3_reduce": {
+        "forward": "0.0956", 
+        "forward_ratio": "0.06%", 
+        "backward": "0.7576", 
+        "backward_ratio": "0.26%"
+    }, 
+    "inception_4e/relu_5x5": {
+        "forward": "0.0752", 
+        "forward_ratio": "0.04%", 
+        "backward": "0.1239", 
+        "backward_ratio": "0.04%"
+    }, 
+    "inception_4e/relu_5x5_reduce": {
+        "forward": "0.063", 
+        "forward_ratio": "0.04%", 
+        "backward": "0.1535", 
+        "backward_ratio": "0.05%"
+    }, 
+    "inception_4e/relu_pool_proj": {
+        "forward": "0.0841", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.116", 
+        "backward_ratio": "0.04%"
+    }, 
+    "inception_5a/1x1": {
+        "forward": "0.8232", 
+        "forward_ratio": "0.49%", 
+        "backward": "2.0239", 
+        "backward_ratio": "0.70%"
+    }, 
+    "inception_5a/3x3": {
+        "forward": "1.8826", 
+        "forward_ratio": "1.12%", 
+        "backward": "3.7334", 
+        "backward_ratio": "1.29%"
+    }, 
+    "inception_5a/3x3_reduce": {
+        "forward": "0.5361", 
+        "forward_ratio": "0.32%", 
+        "backward": "1.2826", 
+        "backward_ratio": "0.44%"
+    }, 
+    "inception_5a/5x5": {
+        "forward": "0.4498", 
+        "forward_ratio": "0.27%", 
+        "backward": "0.866", 
+        "backward_ratio": "0.30%"
+    }, 
+    "inception_5a/5x5_reduce": {
+        "forward": "0.2587", 
+        "forward_ratio": "0.15%", 
+        "backward": "0.4758", 
+        "backward_ratio": "0.16%"
+    }, 
+    "inception_5a/output": {
+        "forward": "0.2599", 
+        "forward_ratio": "0.15%", 
+        "backward": "0.6698", 
+        "backward_ratio": "0.23%"
+    }, 
+    "inception_5a/output_inception_5a/output_0_split": {
+        "forward": "0.0118", 
+        "forward_ratio": "0.01%", 
+        "backward": "0.808", 
+        "backward_ratio": "0.28%"
+    }, 
+    "inception_5a/pool": {
+        "forward": "0.6317", 
+        "forward_ratio": "0.37%", 
+        "backward": "0.6036", 
+        "backward_ratio": "0.21%"
+    }, 
+    "inception_5a/pool_proj": {
+        "forward": "0.5236", 
+        "forward_ratio": "0.31%", 
+        "backward": "1.0991", 
+        "backward_ratio": "0.38%"
+    }, 
+    "inception_5a/relu_1x1": {
+        "forward": "0.0768", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.0714", 
+        "backward_ratio": "0.02%"
+    }, 
+    "inception_5a/relu_3x3": {
+        "forward": "0.0837", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.0728", 
+        "backward_ratio": "0.03%"
+    }, 
+    "inception_5a/relu_3x3_reduce": {
+        "forward": "0.1546", 
+        "forward_ratio": "0.09%", 
+        "backward": "0.2243", 
+        "backward_ratio": "0.08%"
+    }, 
+    "inception_5a/relu_5x5": {
+        "forward": "0.048", 
+        "forward_ratio": "0.03%", 
+        "backward": "0.0778", 
+        "backward_ratio": "0.03%"
+    }, 
+    "inception_5a/relu_5x5_reduce": {
+        "forward": "0.0494", 
+        "forward_ratio": "0.03%", 
+        "backward": "0.0648", 
+        "backward_ratio": "0.02%"
+    }, 
+    "inception_5a/relu_pool_proj": {
+        "forward": "0.068", 
+        "forward_ratio": "0.04%", 
+        "backward": "0.0681", 
+        "backward_ratio": "0.02%"
+    }, 
+    "inception_5b/1x1": {
+        "forward": "1.3204", 
+        "forward_ratio": "0.78%", 
+        "backward": "3.2656", 
+        "backward_ratio": "1.13%"
+    }, 
+    "inception_5b/3x3": {
+        "forward": "2.7037", 
+        "forward_ratio": "1.60%", 
+        "backward": "5.3287", 
+        "backward_ratio": "1.84%"
+    }, 
+    "inception_5b/3x3_reduce": {
+        "forward": "0.648", 
+        "forward_ratio": "0.38%", 
+        "backward": "1.5833", 
+        "backward_ratio": "0.55%"
+    }, 
+    "inception_5b/5x5": {
+        "forward": "0.6291", 
+        "forward_ratio": "0.37%", 
+        "backward": "1.3077", 
+        "backward_ratio": "0.45%"
+    }, 
+    "inception_5b/5x5_reduce": {
+        "forward": "0.3014", 
+        "forward_ratio": "0.18%", 
+        "backward": "0.5749", 
+        "backward_ratio": "0.20%"
+    }, 
+    "inception_5b/output": {
+        "forward": "0.2661", 
+        "forward_ratio": "0.16%", 
+        "backward": "0.7821", 
+        "backward_ratio": "0.27%"
+    }, 
+    "inception_5b/pool": {
+        "forward": "0.618", 
+        "forward_ratio": "0.37%", 
+        "backward": "0.4733", 
+        "backward_ratio": "0.16%"
+    }, 
+    "inception_5b/pool_proj": {
+        "forward": "0.4987", 
+        "forward_ratio": "0.30%", 
+        "backward": "1.1209", 
+        "backward_ratio": "0.39%"
+    }, 
+    "inception_5b/relu_1x1": {
+        "forward": "0.0825", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.1178", 
+        "backward_ratio": "0.04%"
+    }, 
+    "inception_5b/relu_3x3": {
+        "forward": "0.0829", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.0946", 
+        "backward_ratio": "0.03%"
+    }, 
+    "inception_5b/relu_3x3_reduce": {
+        "forward": "0.0691", 
+        "forward_ratio": "0.04%", 
+        "backward": "0.2758", 
+        "backward_ratio": "0.10%"
+    }, 
+    "inception_5b/relu_5x5": {
+        "forward": "0.0555", 
+        "forward_ratio": "0.03%", 
+        "backward": "0.0776", 
+        "backward_ratio": "0.03%"
+    }, 
+    "inception_5b/relu_5x5_reduce": {
+        "forward": "0.0594", 
+        "forward_ratio": "0.04%", 
+        "backward": "0.08", 
+        "backward_ratio": "0.03%"
+    }, 
+    "inception_5b/relu_pool_proj": {
+        "forward": "0.0679", 
+        "forward_ratio": "0.04%", 
+        "backward": "0.0772", 
+        "backward_ratio": "0.03%"
+    }, 
+    "label_data_1_split": {
+        "forward": "0.0103", 
+        "forward_ratio": "0.01%", 
+        "backward": "0.0047", 
+        "backward_ratio": "0.00%"
+    }, 
+    "loss1/ave_pool": {
+        "forward": "0.3258", 
+        "forward_ratio": "0.19%", 
+        "backward": "0.7548", 
+        "backward_ratio": "0.26%"
+    }, 
+    "loss1/classifier": {
+        "forward": "0.6458", 
+        "forward_ratio": "0.38%", 
+        "backward": "0.9734", 
+        "backward_ratio": "0.34%"
+    }, 
+    "loss1/conv": {
+        "forward": "0.2369", 
+        "forward_ratio": "0.14%", 
+        "backward": "0.6391", 
+        "backward_ratio": "0.22%"
+    }, 
+    "loss1/drop_fc": {
+        "forward": "0.0988", 
+        "forward_ratio": "0.06%", 
+        "backward": "0.0544", 
+        "backward_ratio": "0.02%"
+    }, 
+    "loss1/fc": {
+        "forward": "0.8796", 
+        "forward_ratio": "0.52%", 
+        "backward": "1.2637", 
+        "backward_ratio": "0.44%"
+    }, 
+    "loss1/loss": {
+        "forward": "0.7926", 
+        "forward_ratio": "0.47%", 
+        "backward": "0.168", 
+        "backward_ratio": "0.06%"
+    }, 
+    "loss1/relu_conv": {
+        "forward": "0.0366", 
+        "forward_ratio": "0.02%", 
+        "backward": "0.135", 
+        "backward_ratio": "0.05%"
+    }, 
+    "loss1/relu_fc": {
+        "forward": "0.0879", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.044", 
+        "backward_ratio": "0.02%"
+    }, 
+    "loss2/ave_pool": {
+        "forward": "0.3581", 
+        "forward_ratio": "0.21%", 
+        "backward": "0.7537", 
+        "backward_ratio": "0.26%"
+    }, 
+    "loss2/classifier": {
+        "forward": "0.6244", 
+        "forward_ratio": "0.37%", 
+        "backward": "0.9476", 
+        "backward_ratio": "0.33%"
+    }, 
+    "loss2/conv": {
+        "forward": "0.2362", 
+        "forward_ratio": "0.14%", 
+        "backward": "0.5829", 
+        "backward_ratio": "0.20%"
+    }, 
+    "loss2/drop_fc": {
+        "forward": "0.101", 
+        "forward_ratio": "0.06%", 
+        "backward": "0.0586", 
+        "backward_ratio": "0.02%"
+    }, 
+    "loss2/fc": {
+        "forward": "0.8887", 
+        "forward_ratio": "0.53%", 
+        "backward": "1.2514", 
+        "backward_ratio": "0.43%"
+    }, 
+    "loss2/loss": {
+        "forward": "0.7339", 
+        "forward_ratio": "0.43%", 
+        "backward": "0.1704", 
+        "backward_ratio": "0.06%"
+    }, 
+    "loss2/relu_conv": {
+        "forward": "0.0359", 
+        "forward_ratio": "0.02%", 
+        "backward": "0.1318", 
+        "backward_ratio": "0.05%"
+    }, 
+    "loss2/relu_fc": {
+        "forward": "0.0793", 
+        "forward_ratio": "0.05%", 
+        "backward": "0.0399", 
+        "backward_ratio": "0.01%"
+    }, 
+    "loss3/classifier": {
+        "forward": "0.5536", 
+        "forward_ratio": "0.33%", 
+        "backward": "1.0285", 
+        "backward_ratio": "0.35%"
+    }, 
+    "loss3/loss3": {
+        "forward": "0.7168", 
+        "forward_ratio": "0.42%", 
+        "backward": "0.2596", 
+        "backward_ratio": "0.09%"
+    }, 
+    "pool1/3x3_s2": {
+        "forward": "3.238", 
+        "forward_ratio": "1.92%", 
+        "backward": "5.5069", 
+        "backward_ratio": "1.90%"
+    }, 
+    "pool1/norm1": {
+        "forward": "1.7054", 
+        "forward_ratio": "1.01%", 
+        "backward": "1.9658", 
+        "backward_ratio": "0.68%"
+    }, 
+    "pool2/3x3_s2": {
+        "forward": "2.3973", 
+        "forward_ratio": "1.42%", 
+        "backward": "4.1059", 
+        "backward_ratio": "1.42%"
+    }, 
+    "pool2/3x3_s2_pool2/3x3_s2_0_split": {
+        "forward": "0.011", 
+        "forward_ratio": "0.01%", 
+        "backward": "1.0386", 
+        "backward_ratio": "0.36%"
+    }, 
+    "pool3/3x3_s2": {
+        "forward": "1.6607", 
+        "forward_ratio": "0.98%", 
+        "backward": "2.6187", 
+        "backward_ratio": "0.90%"
+    }, 
+    "pool3/3x3_s2_pool3/3x3_s2_0_split": {
+        "forward": "0.0129", 
+        "forward_ratio": "0.01%", 
+        "backward": "0.756", 
+        "backward_ratio": "0.26%"
+    }, 
+    "pool4/3x3_s2": {
+        "forward": "0.7435", 
+        "forward_ratio": "0.44%", 
+        "backward": "1.2419", 
+        "backward_ratio": "0.43%"
+    }, 
+    "pool4/3x3_s2_pool4/3x3_s2_0_split": {
+        "forward": "0.0117", 
+        "forward_ratio": "0.01%", 
+        "backward": "0.5239", 
+        "backward_ratio": "0.18%"
+    }, 
+    "pool5/7x7_s1": {
+        "forward": "0.145", 
+        "forward_ratio": "0.09%", 
+        "backward": "0.518", 
+        "backward_ratio": "0.18%"
+    }, 
+    "pool5/drop_7x7_s1": {
+        "forward": "0.256", 
+        "forward_ratio": "0.15%", 
+        "backward": "0.0574", 
+        "backward_ratio": "0.02%"
+    }
+}

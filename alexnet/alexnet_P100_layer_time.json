@@ -1,0 +1,146 @@
+{
+    "conv1": {
+        "forward": "9.23682", 
+        "forward_ratio": "16.74%", 
+        "backward": "11.4131", 
+        "backward_ratio": "15.49%"
+    }, 
+    "conv2": {
+        "forward": "5.56909", 
+        "forward_ratio": "10.09%", 
+        "backward": "9.62124", 
+        "backward_ratio": "13.06%"
+    }, 
+    "conv3": {
+        "forward": "7.0366", 
+        "forward_ratio": "12.75%", 
+        "backward": "8.55155", 
+        "backward_ratio": "11.61%"
+    }, 
+    "conv4": {
+        "forward": "5.16389", 
+        "forward_ratio": "9.36%", 
+        "backward": "7.80127", 
+        "backward_ratio": "10.59%"
+    }, 
+    "conv5": {
+        "forward": "4.04047", 
+        "forward_ratio": "7.32%", 
+        "backward": "5.89732", 
+        "backward_ratio": "8.00%"
+    }, 
+    "data": {
+        "forward": "0.69648", 
+        "forward_ratio": "1.26%", 
+        "backward": "0.0023872", 
+        "backward_ratio": "0.00%"
+    }, 
+    "drop6": {
+        "forward": "0.0605536", 
+        "forward_ratio": "0.11%", 
+        "backward": "0.0316864", 
+        "backward_ratio": "0.04%"
+    }, 
+    "drop7": {
+        "forward": "0.0480096", 
+        "forward_ratio": "0.09%", 
+        "backward": "0.032528", 
+        "backward_ratio": "0.04%"
+    }, 
+    "fc6": {
+        "forward": "4.00029", 
+        "forward_ratio": "7.25%", 
+        "backward": "5.22436", 
+        "backward_ratio": "7.09%"
+    }, 
+    "fc7": {
+        "forward": "1.19559", 
+        "forward_ratio": "2.17%", 
+        "backward": "2.3622", 
+        "backward_ratio": "3.21%"
+    }, 
+    "fc8": {
+        "forward": "0.564099", 
+        "forward_ratio": "1.02%", 
+        "backward": "0.760285", 
+        "backward_ratio": "1.03%"
+    }, 
+    "loss": {
+        "forward": "0.140134", 
+        "forward_ratio": "0.25%", 
+        "backward": "0.0363552", 
+        "backward_ratio": "0.05%"
+    }, 
+    "norm1": {
+        "forward": "1.68474", 
+        "forward_ratio": "3.05%", 
+        "backward": "2.3148", 
+        "backward_ratio": "3.14%"
+    }, 
+    "norm2": {
+        "forward": "1.27921", 
+        "forward_ratio": "2.32%", 
+        "backward": "2.02203", 
+        "backward_ratio": "2.74%"
+    }, 
+    "pool1": {
+        "forward": "1.63384", 
+        "forward_ratio": "2.96%", 
+        "backward": "7.2814", 
+        "backward_ratio": "9.88%"
+    }, 
+    "pool2": {
+        "forward": "0.878125", 
+        "forward_ratio": "1.59%", 
+        "backward": "4.78382", 
+        "backward_ratio": "6.49%"
+    }, 
+    "pool5": {
+        "forward": "0.202806", 
+        "forward_ratio": "0.37%", 
+        "backward": "1.12736", 
+        "backward_ratio": "1.53%"
+    }, 
+    "relu1": {
+        "forward": "1.62934", 
+        "forward_ratio": "2.95%", 
+        "backward": "1.72839", 
+        "backward_ratio": "2.35%"
+    }, 
+    "relu2": {
+        "forward": "0.826922", 
+        "forward_ratio": "1.50%", 
+        "backward": "1.1055", 
+        "backward_ratio": "1.50%"
+    }, 
+    "relu3": {
+        "forward": "0.310752", 
+        "forward_ratio": "0.56%", 
+        "backward": "0.457354", 
+        "backward_ratio": "0.62%"
+    }, 
+    "relu4": {
+        "forward": "0.299968", 
+        "forward_ratio": "0.54%", 
+        "backward": "0.453872", 
+        "backward_ratio": "0.62%"
+    }, 
+    "relu5": {
+        "forward": "0.200794", 
+        "forward_ratio": "0.36%", 
+        "backward": "0.308035", 
+        "backward_ratio": "0.42%"
+    }, 
+    "relu6": {
+        "forward": "0.0210208", 
+        "forward_ratio": "0.04%", 
+        "backward": "0.0345888", 
+        "backward_ratio": "0.05%"
+    }, 
+    "relu7": {
+        "forward": "0.023296", 
+        "forward_ratio": "0.04%", 
+        "backward": "0.0399136", 
+        "backward_ratio": "0.05%"
+    }
+}
